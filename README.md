@@ -1,6 +1,6 @@
 # Customer Review Sentiment Classifier
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a **Natural Language Processing (NLP)** system to automatically classify customer reviews into **positive**, **neutral**, or **negative** sentiments.
 The goal is to help businesses efficiently analyze large volumes of unstructured customer feedback and turn it into actionable insights.
@@ -8,7 +8,7 @@ The goal is to help businesses efficiently analyze large volumes of unstructured
 This project was completed as part of the **Springboard Data Science Career Track Capstone**.
 
 
-## 🎯 Business Problem
+## Business Problem
 
 Customer reviews contain valuable insights about product quality, delivery experience, and customer satisfaction. However:
 
@@ -20,14 +20,14 @@ An automated sentiment classification system enables faster, more consistent, an
 
 
 
-## 🧠 Data Science Problem Formulation
+## Data Science Problem Formulation
 
 * **Task:** Supervised multi-class classification
 * **Input:** Customer review text
 * **Output:** Sentiment label (Positive / Neutral / Negative)
 
 
-## 📊 Dataset
+## Dataset
 
 * **Source:** Amazon US Customer Reviews Dataset (Kaggle)
 * **Link:** [https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset)
@@ -38,7 +38,7 @@ An automated sentiment classification system enables faster, more consistent, an
   * 4–5 stars → Positive
 
 
-## 🧹 Data Wrangling & Preprocessing
+##  Data Wrangling & Preprocessing
 
 Key steps included:
 
@@ -50,7 +50,7 @@ Key steps included:
 **Key challenge:** Strong class imbalance toward positive reviews
 
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 Key findings:
 
@@ -60,7 +60,7 @@ Key findings:
 * Distinct vocabulary patterns exist across sentiment classes
 
 
-## 🤖 Modeling Approach
+##  Modeling Approach
 
 ### Feature Engineering
 
@@ -79,7 +79,7 @@ Key findings:
 * **Macro F1-score** (emphasized due to class imbalance)
 
 
-## 📈 Results
+##  Results
 
 * **Best performing models:** Logistic Regression & Linear SVM
 * **Accuracy:** ~88%
@@ -88,21 +88,21 @@ Key findings:
 Most classification errors occurred in the **neutral** class due to linguistic ambiguity.
 
 
-## 💡 Business Insights
+##  Business Insights
 
 * Negative sentiment often highlights delivery issues, product defects, and customer service problems
 * Positive sentiment emphasizes value, reliability, and satisfaction
 * Aggregated sentiment trends can reveal customer priorities at scale
 
 
-## ✅ Recommendations
+## Recommendations
 
 1. Deploy real-time sentiment monitoring dashboards
 2. Automatically route negative reviews to customer support teams
 3. Use sentiment trends to inform product improvements and marketing strategies
 
 
-## ⚠️ Limitations & Future Work
+##  Limitations & Future Work
 
 **Limitations**
 
@@ -117,7 +117,7 @@ Most classification errors occurred in the **neutral** class due to linguistic a
 * Extend to multilingual sentiment analysis
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * pandas, NumPy
@@ -126,7 +126,7 @@ Most classification errors occurred in the **neutral** class due to linguistic a
 * Matplotlib / Seaborn
 
 
-## 👤 Author
+##  Author
 
 **Abhinaya Gyawali**
 Springboard Data Science Career Track
