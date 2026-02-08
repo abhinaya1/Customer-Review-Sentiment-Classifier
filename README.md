@@ -16,13 +16,13 @@ Customer reviews contain valuable insights about product quality, delivery exper
 * Manual analysis is **slow and inconsistent**
 * Large review volumes make scaling difficult
 
-An automated sentiment classification system enables faster, more consistent, and data-driven decision-making across teams.
+An automated sentiment classification system enables faster, more consistent, and data driven decision making across teams.
 
 
 
 ## Data Science Problem Formulation
 
-* **Task:** Supervised multi-class classification
+* **Task:** Supervised multi class classification
 * **Input:** Customer review text
 * **Output:** Sentiment label (Positive / Neutral / Negative)
 
@@ -76,14 +76,14 @@ Key findings:
 
 * Accuracy
 * Precision, Recall
-* **Macro F1-score** (emphasized due to class imbalance)
+* **Macro F1 score** (emphasized due to class imbalance)
 
 
 ##  Results
 
 * **Best performing models:** Logistic Regression & Linear SVM
 * **Accuracy:** ~88%
-* **Macro F1-score:** Met project success criteria (≥ 0.80)
+* **Macro F1 score:** Met project success criteria (≥ 0.80)
 
 Most classification errors occurred in the **neutral** class due to linguistic ambiguity.
 
@@ -97,7 +97,7 @@ Most classification errors occurred in the **neutral** class due to linguistic a
 
 ## Recommendations
 
-1. Deploy real-time sentiment monitoring dashboards
+1. Deploy real time sentiment monitoring dashboards
 2. Automatically route negative reviews to customer support teams
 3. Use sentiment trends to inform product improvements and marketing strategies
 
@@ -107,12 +107,12 @@ Most classification errors occurred in the **neutral** class due to linguistic a
 **Limitations**
 
 * Difficulty handling sarcasm and slang
-* English-only reviews
+* English only reviews
 * Neutral sentiment remains challenging due to linguistic overlap
 
 **Future Improvements**
 
-* Fine-tune transformer-based models (e.g., BERT)
+* Fine tune transformer based models (e.g., BERT)
 * Topic modeling on negative reviews
 * Extend to multilingual sentiment analysis
 
